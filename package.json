@@ -1,0 +1,11 @@
+{
+  "name": "imagedirect-create-block",
+  "version": "0.0.1",
+  "description": "Extended @Wordpress/create-block",
+  "main": "index.js",
+  "author": "djcowan",
+  "license": "GPLv2 or later",
+  "dependencies": {
+    "mustache": "^4.2.0"
+  }
+}
