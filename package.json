@@ -1,5 +1,5 @@
 {
-  "name": "imagedirect-create-block",
+  "name": "create-block",
   "version": "0.0.1",
   "description": "Extended @Wordpress/create-block",
   "main": "index.js",
