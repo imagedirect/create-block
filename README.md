@@ -1,4 +1,14 @@
-# External Project Templates
+# imageDirect create-block npm package
+
+```--template```
+
+This argument specifies an external npm package as a template.
+
+```ssh
+npx @wordpress/create-block --template imagedirect-create-block
+```
+
+## External Project Templates
 
 Are you looking for a way to share your project configuration? Creating an external project template hosted on npm or located in a local directory is possible. These npm packages can provide custom `.mustache` files that replace default files included in the tool for the WordPress plugin or/and the block. It's also possible to override default configuration values used during the scaffolding process.
 
