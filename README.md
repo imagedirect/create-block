@@ -1,4 +1,8 @@
-# imageDirect create-block npm package
+# Create Block 
+
+== `imagedirect-create-block` npm package ==
+
+@see <https://www.npmjs.com/package/@wordpress/create-block>
 
 ```--template```
 
@@ -24,12 +28,13 @@ npm publish
 ---
 
 <!-- markdownlint-disable MD033 -->
-<a href="https://www.imagedirect.com.au/" title="imageDirect - Get found in the noise">
+<a href="https://www.imagedirect.com.au/" title="Get found in the noise">
 <img width="160" height="67" src="https://www.imagedirect.com.au/wp-content/uploads/2017/07/ID_CMYKLogo_April2017_Final-01.svg" alt="imageDirect - Get found in the noise" />
 </a>
-<!-- markdownlint-enable MD033 -->
 
-## imageDirect - Get found in the noise™
+<a href="https://www.imagedirect.com.au/" title="Get found in the noise">image<em><b>Direct</b></em></a> - Get found in the noise™
+
+<!-- markdownlint-enable MD033 -->
 
 ---
 
