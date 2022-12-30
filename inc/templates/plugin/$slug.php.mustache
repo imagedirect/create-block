@@ -1,45 +1,46 @@
 <?php
-namespace {{namespaceCamelCase}}/{{slugCamelCase}};
+namespace {{namespaceSnakeCase}}\{{slugSnakeCase}};
 /**
- * Plugin Name:       {{namespace}} {{title}}
+ * Plugin Name:			{{namespace}} {{title}}
 {{#pluginURI}}
- * Plugin URI:        {{{pluginURI}}}
+ * Plugin URI:			{{{pluginURI}}}
 {{/pluginURI}}
 {{#description}}
- * Description:       {{description}}
+ * Description:			{{description}}
 {{/description}}
- * Requires at least: 6.1
- * Requires PHP:      7.0
- * Version:           {{version}}
+ * Requires at least:	6.1
+ * Requires PHP:		7.0
+ * Version:				{{version}}
 {{#author}}
- * Author:            {{author}}
+ * Author:				{{author}}
 {{/author}}
 {{#license}}
- * License:           {{license}}
+ * License:				{{license}}
 {{/license}}
 {{#licenseURI}}
- * License URI:       {{{licenseURI}}}
+ * License URI:			{{{licenseURI}}}
 {{/licenseURI}}
- * Text Domain:       {{textdomain}}
+ * Text Domain:			{{textdomain}}
 {{#domainPath}}
- * Domain Path:       {{{domainPath}}}
+ * Domain Path:			{{{domainPath}}}
 {{/domainPath}}
 {{#updateURI}}
- * Update URI:        {{{updateURI}}}
+ * Update URI:			{{{updateURI}}}
 {{/updateURI}}
  *
- * @package           {{namespace}}
- * @see               https://github.com/WordPress/gutenberg/
- * @since            {{version}}
- */
+ * @package				{{namespace}}
+ * @since				{{version}}
+ * ------------------------------------ */
 
 /**
  * Registers the block using the metadata loaded from the `block.json` file.
  * Behind the scenes, it registers also all assets so they can be enqueued
  * through the block editor in the corresponding context.
  *
- * @see https://developer.wordpress.org/reference/functions/register_block_type/
- */
+ * @see		https://developer.wordpress.org/reference/functions/register_block_type/
+ * @since	{{version}}
+ * ------------------------------------ */
+
 function block_init() :void {
 	register_block_type( __DIR__ . '/build' );
 }

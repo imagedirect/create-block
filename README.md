@@ -15,9 +15,11 @@ npx @wordpress/create-block --template imagedirect-create-block
 * Release
 * 1.1.0
 
----
+== Update package ===
 
-[!["imageDirect - Get found in the noise"][screenshot-src:def]][link:def]
+```shh
+npm publish
+```
 
 ---
 
@@ -27,10 +29,9 @@ npx @wordpress/create-block --template imagedirect-create-block
 </a>
 <!-- markdownlint-enable MD033 -->
 
-#### imageDirect - Get found in the noise™
+## imageDirect - Get found in the noise™
 
-[screenshot-src:def]: /screenshot.png?raw=true "imageDirect - Get found in the noise"
-[link:def]: https://www.imagedirect.com.au/
+---
 
 ## External Project Templates
 
