@@ -1,13 +1,16 @@
 {
   "name": "imagedirect-create-block",
-  "version": "0.0.1",
-  "description": "Extended @Wordpress/create-block",
+  "version": "1.1.0",
+  "description": "extendes @wordpress/create-block",
   "repository": {
     "type": "git",
     "url": "https://github.com/imagedirect/create-block"
   },
   "main": "index.js",
   "author": "imagedirect",
+  "contributors": [
+    "djcowan"
+  ],
   "license": "GPLv2 or later",
   "dependencies": {
     "mustache": "^4.2.0"
